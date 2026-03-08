@@ -6,6 +6,7 @@ Este repositorio contiene un proyecto desarrollado como parte de la asignatura d
 
 - **Datasets/**: Contiene los archivos de datos utilizados para el análisis.
   - `BankChurners.csv`: Dataset relacionado con la retención de clientes en el sector bancario. Este dataset se utilizó para explorar patrones y características que influyen en la decisión de los clientes de abandonar el banco.
+  - `Mall_Customers.csv`: Dataset utilizado para analizar el comportamiento de los clientes en un centro comercial, incluyendo segmentación y patrones de compra.
 
 - **Notebooks/**: Incluye notebooks de Jupyter con el análisis exploratorio.
   - `paquete_eda.ipynb`: Notebook principal que utiliza una clase personalizada `AnalisisEDA` para realizar tareas de EDA. Este notebook incluye:
@@ -16,6 +17,8 @@ Este repositorio contiene un proyecto desarrollado como parte de la asignatura d
 
 - **Projecto_Caso_Estudio/**: Contiene scripts Python relacionados con el análisis.
   - `AnalisisExploratorioEDA.py`: Script que implementa funciones reutilizables para el análisis exploratorio. Este archivo fue diseñado para automatizar tareas comunes y reducir la repetición de código.
+  - `paquete_analisis_eda_ns.py`: Módulo que centraliza las funciones de análisis exploratorio, incluyendo carga de datos, limpieza y visualización.
+
 
 ## Detalles del Notebook `paquete_eda.ipynb`
 
